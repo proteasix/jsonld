@@ -1,0 +1,178 @@
+{
+  "@context" : {
+    	"id" : "@id",
+   	"type" : "@type",
+    "rest" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+      "@type" : "@id"
+    },
+    "first" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+      "@type" : "@id"
+    },
+    "hasNamespace" : {
+      "@id" : "http://sysvasc.cs.man.ac.uk/formats/proteasixInOwl/proteasix#hasNamespace",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "equivalentClass" : {
+      "@id" : "http://www.w3.org/2002/07/owl#equivalentClass",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#id",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "intersectionOf" : {
+      "@id" : "http://www.w3.org/2002/07/owl#intersectionOf",
+      "@type" : "@id"
+    },
+    "someValuesFrom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#someValuesFrom",
+      "@type" : "@id"
+    },
+    "onProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#onProperty",
+      "@type" : "@id"
+    },
+    "hasRelatedSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "inSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "@type" : "@id"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasNarrowSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "created_by" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "creation_date" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "shorthand" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#shorthand",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "aa1" : {
+      "@id" : "http://purl.obolibrary.org/obo/so-xp.obo#aa1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "aa3" : {
+      "@id" : "http://purl.obolibrary.org/obo/so-xp.obo#aa3",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description",
+      "@type" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#langString"
+    },
+    "hasBroadSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "annotatedSource" : {
+      "@id" : "http://www.w3.org/2002/07/owl#annotatedSource",
+      "@type" : "@id"
+    },
+    "annotatedProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#annotatedProperty",
+      "@type" : "@id"
+    },
+    "annotatedTarget" : {
+      "@id" : "http://www.w3.org/2002/07/owl#annotatedTarget",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+      "@type" : "@id"
+    },
+    "imports" : {
+      "@id" : "http://www.w3.org/2002/07/owl#imports",
+      "@type" : "@id"
+    },
+    "versionIRI" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionIRI",
+      "@type" : "@id"
+    },
+    "default-namespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#default-namespace",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "date" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasOBOFormatVersion" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "propertyChainAxiom" : {
+      "@id" : "http://www.w3.org/2002/07/owl#propertyChainAxiom",
+      "@type" : "@id"
+    },
+    "pr" : "http://purl.obolibrary.org/obo/pr#",
+    "chebi" : "http://purl.obolibrary.org/obo/chebi#",
+    "rex" : "http://purl.obolibrary.org/obo/rex#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "oboInOwl" : "http://www.geneontology.org/formats/oboInOwl#",
+    "coreUniProtKB" : "http://purl.uniprot.org/core/",
+    "PxO" : "http://sysvasc.cs.man.ac.uk/formats/proteasixInOwl/proteasix#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "go" : "http://purl.obolibrary.org/obo/go#",
+    "UniProtKB" : "http://purl.uniprot.org/uniprot/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "so-xp" : "http://purl.obolibrary.org/obo/so-xp.obo#",
+    "ncbitaxon" : "http://purl.obolibrary.org/obo/ncbitaxon#",
+    "TxUniProtKB" : "http://purl.uniprot.org/taxonomy/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "obo" : "http://purl.obolibrary.org/obo/",
+    "amino-acid" : "http://www.co-ode.org/ontologies/amino-acid/2009/02/16/amino-acid.owl#",
+    "ro" : "http://purl.obolibrary.org/obo/ro#",
+    "dc" : "http://purl.org/dc/elements/1.1/",
+    "subsets" : "http://purl.obolibrary.org/obo/ro/subsets#"
+}
+}
